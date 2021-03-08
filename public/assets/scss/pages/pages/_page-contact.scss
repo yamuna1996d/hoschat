@@ -1,0 +1,241 @@
+/**
+------------------------------------------------------------------------------
+Contact US
+------------------------------------------------------------------------------
+**/
+.contatct-us-wrapper {
+    // background-color: pink;
+    padding-top: 5.8rem;
+
+    .section-heading {
+        padding-bottom: 1.5rem;
+
+        h4 {
+            color: #1C1C1C;
+        }
+
+        .title-medium {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.6rem;
+
+            @media(min-width:992px) {
+                font-size: 1.625rem;
+            }
+        }
+
+        .short-note {
+            font-size: 1rem;
+            color: #474747;
+            line-height: 28px;
+        }
+    }
+
+    .qk-contact-form {
+        position: relative;
+        padding-top: 2.4rem;
+        padding-bottom: 3rem;
+
+        .input-box {
+            position: relative;
+            background: #fff;
+            padding: 0.7rem 2rem 0.7rem 3rem;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.10);
+            min-height: 60px;
+            border-radius: 10px 0px 10px 10px;
+            border: 1px solid #fff;
+            transition: all 0.3s ease-out;
+
+            &:focus {
+                border: 1px solid;
+            }
+
+            .form-icon {
+                position: absolute;
+                left: 22px;
+                top: 14px;
+            }
+
+            .form-control {
+                margin-left: auto;
+                border-radius: 0rem;
+                border: none;
+                outline: 0;
+                box-shadow: none;
+                font-size: 1rem;
+                color: #1C1C1C;
+                resize: none;
+                padding: 0.375rem 0.45rem;
+                // font-family: "Poppins", sans-serif;
+
+                &::placeholder {
+                    /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color: rgba(0, 0, 0, 0.3);
+                    opacity: 1;
+                    /* Firefox */
+                }
+
+                &:-ms-input-placeholder {
+                    /* Internet Explorer 10-11 */
+                    color: rgba(0, 0, 0, 0.3);
+                }
+
+                &::-ms-input-placeholder {
+                    /* Microsoft Edge */
+                    color: rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+
+        .form-field-gap {
+            margin-bottom: 1.5rem;
+
+            @media(min-width:992px) {
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        .input-focus--active {
+            border: 1px solid rgba(27, 164, 75, 0.44);
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    }
+}
+
+.contact-area {
+    padding-top: 1.5rem;
+    padding-bottom: 4.3rem;
+
+    @media(min-width:1200px) {
+        padding-bottom: 7.3rem;
+    }
+
+    .contact-info {
+        border: 1px solid rgba(112, 112, 112, 1);
+        border-radius: 10px;
+        padding: 2.4rem 3rem 4rem;
+        height: 100%;
+        text-align: center;
+        transition: all ease-out 0.3s;
+
+        .contact-info__icon {
+            width: 61px;
+            height: 61px;
+            position: relative;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0px auto;
+            margin-bottom: 1.5rem;
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 61px;
+                height: 61px;
+                background-color: #1BA44B;
+                transform: rotate(-45deg);
+                border-radius: 250px 0px 250px 250px;
+                z-index: -1;
+                transition: all ease-out 0.3s;
+
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+
+        .contact-info__title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 1rem;
+
+            @media(min-width:992px) {
+                font-size: 1.563rem;
+            }
+        }
+
+        .contact-info__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                font-size: 1.125rem;
+                line-height: 32px;
+
+                a {
+                    color: #2D2D2D;
+                    position: relative;
+                    transition: all 0.3s ease-out;
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        bottom: 0;
+                        right: 0;
+                        width: 0;
+                        height: 1px;
+                        background: rgba(255, 255, 255, 0.9);
+                        -webkit-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                        transition: all 0.5s;
+                    }
+
+                    &:hover {
+                        &::before {
+                            right: auto;
+                            left: 0;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            background-color: #1BA44B;
+            color: #fff;
+
+            .contact-info__icon {
+                &::before {
+                    background-color: #fff;
+                }
+
+                svg {
+                    path {
+                        fill: #1BA44B !important;
+                    }
+                }
+            }
+
+            .contact-info__title {
+                color: #fff;
+            }
+
+            .contact-info__list {
+                li {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

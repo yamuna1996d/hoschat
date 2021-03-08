@@ -1,0 +1,105 @@
+/**
+------------------------------------------------------------------------------
+Job Details
+------------------------------------------------------------------------------
+**/
+.job-details-wraper {
+    padding-top: 6.0rem;
+    padding-bottom: 4.2rem;
+
+    .job-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 2.8rem;
+
+        .job-info__title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #162D1E;
+            line-height: 47px;
+            margin-bottom: 0.5rem;
+            margin-top: 0.3rem;
+
+            @media(min-width:1200px) {
+                font-size: 2.188rem;
+            }
+        }
+
+        .job-info__role {
+            font-size: 1.2rem;
+            color: #1BA44B;
+            font-weight: 600;
+
+            @media(min-width:1200px) {
+                font-size: 1.875rem;
+            }
+        }
+
+        .job-info__mail {
+            font-size: 1.125rem;
+            color: #262626;
+
+            a {
+                color: #1AA44B;
+                position: relative;
+                font-weight: 600;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    bottom: 0;
+                    right: 0;
+                    width: 0;
+                    height: 1px;
+                    background: rgba(27, 164, 75, 0.9);
+                    -webkit-transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                    transition: all 0.5s;
+                }
+
+                &:hover {
+                    &::before {
+                        right: auto;
+                        left: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .job-post-details {
+        font-size: 1rem;
+        line-height: 1.875rem;
+        color: #546B5C;
+
+        p {
+            margin-top: 0;
+            padding-bottom: 0.8rem;
+        }
+
+        .key-points {
+            list-style: none;
+            padding: 0rem 0rem;
+            margin: 0rem 0rem;
+
+            li {
+                position: relative;
+                padding-left: 35px;
+                margin-bottom: 0.6rem;
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100px 0px 100px 100px;
+                    background-color: #1BA44B;
+                    top: 8px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

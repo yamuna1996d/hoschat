@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cosmique</title>
+        <!-- Plugins -->
+    <link rel="stylesheet" href="./assets/plugins/plugin-bundle.css">
+	<!-- Font Icon -->
+    <link rel="stylesheet" href="./assets/images/iconset/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/icons/themify-icons.css">
+	 <!-- Core CSS -->
+
+    <link rel="stylesheet" href="./assets/css/frame-style.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    
+    <!---navbar--->
+        <nav class="navbar  navbar-expand-lg nav-mob-wrapper navbar-light patient-icon-main">
+        <!-- Mobile Navber -->
+        <div class="nav-mob">
+            <button class="btn nav-mob__bars" type="button" data-toggle="collapse" data-target="#navbarMainMenu"
+                aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+            <a class="nav-mob__logo" href="
+    ">
+                <img src="./assets/images/logo/Ualright logo-prim.svg" class="img-fluid"></a>
+            <div class="nav-mob__right">
+                <a href="profile.php" class="btn nav-mob__login">
+                    <div class="user-avatar">
+                        <img src="./assets/images/author/av-01.png" class="img-fluid" alt="icon">
+                    </div>
+                    Login
+                </a>
+            </div>
+        </div>
+        <!-- Mobile Navber END -->
+
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/logo/logo.png" class="logo-pc img-fluid">
+            </a>
+
+
+            <div class="collapse navbar-collapse" id="navbarMainMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item current active">
+                        <a class="nav-link inner-color" href="./Doctor-list.html">Doctor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="form-inline d-none d-lg-flex patient-icon ">
+                       
+                                            <!-- After Login -->
+                    <div class="dropdown user-profile">
+                        <!-- User Image -->
+                        <a class="nav-link dropdown-toggle user-profile__drop " href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="profile-img">
+                                <img src="./assets/images/author/av-01.png" class="img-fluid" alt="user">
+                            </div>
+                            <div class="user-info">
+                                <span class="icon-padd">
+                                    Richard</span>
+                                <span class="ti-angle-down font-10 "></span>
+                            </div>
+                        </a>
+                        <!-- User Image END-->
+
+                        <!-- Dropmenu -->
+                        <div class="dropdown-menu dropmenu-list" aria-labelledby="navbarDropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="dropmenu-list__icon">
+
+                                            <svg id="user_1_" data-name="user (1)" xmlns="http://www.w3.org/2000/svg"
+                                                width="13.11" height="14.302" viewBox="0 0 13.11 14.302">
+                                                <g id="Group_10980" data-name="Group 10980" transform="translate(0)">
+                                                    <path id="Path_19657" data-name="Path 19657"
+                                                        d="M26.851,9.637,24.8,9.22a.475.475,0,0,1-.375-.467V8.274a5.534,5.534,0,0,0,.392-.711,4.153,4.153,0,0,1,.318-.576,3.088,3.088,0,0,0,.95-1.526,1.449,1.449,0,0,0-.136-1.119,8.57,8.57,0,0,0-.159-1.935A2.127,2.127,0,0,0,25.307.87,1.439,1.439,0,0,0,24.438.5a1.484,1.484,0,0,1-.317-.075A3.249,3.249,0,0,0,22.537,0a3.683,3.683,0,0,0-3.261,2.281,5.7,5.7,0,0,0-.128,1.726l-.013.335a1.541,1.541,0,0,0-.118,1.118,3.077,3.077,0,0,0,.948,1.526,4.222,4.222,0,0,1,.322.579,5.814,5.814,0,0,0,.4.71v.478a.475.475,0,0,1-.376.467l-2.048.418A2.854,2.854,0,0,0,16,12.441v.907a.947.947,0,0,0,.936.953H28.173a.947.947,0,0,0,.936-.953v-.907A2.854,2.854,0,0,0,26.851,9.637Z"
+                                                        transform="translate(-16)" fill="#000" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <span>My Profile</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="chat-history.php">
+                                        <div class="dropmenu-list__icon">
+                                            <svg id="chat_1_" data-name="chat (1)" xmlns="http://www.w3.org/2000/svg"
+                                                width="14.873" height="13.943" viewBox="0 0 14.873 13.943">
+                                                <g id="Group_10993" data-name="Group 10993">
+                                                    <path id="Path_19661" data-name="Path 19661"
+                                                        d="M7.407,16C3.323,16,0,18.932,0,22.536A6.091,6.091,0,0,0,1.7,26.7,2.65,2.65,0,0,1,1,29.2a.436.436,0,0,0,.308.744A4.8,4.8,0,0,0,4.635,28.6a8.217,8.217,0,0,0,2.772.473c4.085,0,7.466-2.932,7.466-6.536S11.492,16,7.407,16ZM3.98,23.843a1.307,1.307,0,1,1,1.307-1.307A1.309,1.309,0,0,1,3.98,23.843Zm3.486,0a1.307,1.307,0,1,1,1.307-1.307A1.309,1.309,0,0,1,7.466,23.843Zm3.486,0a1.307,1.307,0,1,1,1.307-1.307A1.309,1.309,0,0,1,10.951,23.843Z"
+                                                        transform="translate(0 -16)" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <span>Appointment History</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="dropmenu-list__icon">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16.136" height="14.182"
+                                                viewBox="0 0 16.136 14.182">
+                                                <g id="portfolio_1_" data-name="portfolio (1)" transform="translate(0)">
+                                                    <path id="Path_20055" data-name="Path 20055"
+                                                        d="M211,240h2.836v.945H211Zm0,0"
+                                                        transform="translate(-204.35 -232.436)" />
+                                                    <path id="Path_20056" data-name="Path 20056"
+                                                        d="M13.091,83.48H10.432v.473a.473.473,0,0,1-.473.473H6.177a.473.473,0,0,1-.473-.473V83.48H3.045A1.417,1.417,0,0,1,1.7,82.51L0,77.41V87.734a1.42,1.42,0,0,0,1.418,1.418h13.3a1.42,1.42,0,0,0,1.418-1.418V77.411l-1.7,5.1a1.416,1.416,0,0,1-1.345.969Zm0,0"
+                                                        transform="translate(0 -74.971)" />
+                                                    <path id="Path_20057" data-name="Path 20057"
+                                                        d="M34.954,0H31.173a1.42,1.42,0,0,0-1.418,1.418v.473H25.809l1.783,5.35a.473.473,0,0,0,.449.323H30.7V7.091a.473.473,0,0,1,.473-.473h3.782a.473.473,0,0,1,.473.473v.473h2.659a.473.473,0,0,0,.449-.323l1.783-5.35H36.373V1.418A1.42,1.42,0,0,0,34.954,0ZM30.7,1.891V1.418a.473.473,0,0,1,.473-.473h3.782a.473.473,0,0,1,.473.473v.473Zm0,0"
+                                                        transform="translate(-24.996)" />
+                                                </g>
+                                            </svg>
+
+                                        </div>
+                                        <span>Medical Records</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="dropmenu-list__icon">
+
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19.685" height="15.282"
+                                                viewBox="0 0 19.685 15.282">
+                                                <g id="Group_11309" data-name="Group 11309"
+                                                    transform="translate(-1087.001 -234)">
+                                                    <g id="portfolio_1_" data-name="portfolio (1)"
+                                                        transform="translate(1087 234)">
+                                                        <path id="Path_20055" data-name="Path 20055"
+                                                            d="M211,240h2.836v.945H211Zm0,0"
+                                                            transform="translate(-204.35 -232.436)" />
+                                                        <path id="Path_20056" data-name="Path 20056"
+                                                            d="M13.091,83.48H10.432v.473a.473.473,0,0,1-.473.473H6.177a.473.473,0,0,1-.473-.473V83.48H3.045A1.417,1.417,0,0,1,1.7,82.51L0,77.41V87.734a1.42,1.42,0,0,0,1.418,1.418h13.3a1.42,1.42,0,0,0,1.418-1.418V77.411l-1.7,5.1a1.416,1.416,0,0,1-1.345.969Zm0,0"
+                                                            transform="translate(0 -74.971)" />
+                                                        <path id="Path_20057" data-name="Path 20057"
+                                                            d="M34.954,0H31.173a1.42,1.42,0,0,0-1.418,1.418v.473H25.809l1.783,5.35a.473.473,0,0,0,.449.323H30.7V7.091a.473.473,0,0,1,.473-.473h3.782a.473.473,0,0,1,.473.473v.473h2.659a.473.473,0,0,0,.449-.323l1.783-5.35H36.373V1.418A1.42,1.42,0,0,0,34.954,0ZM30.7,1.891V1.418a.473.473,0,0,1,.473-.473h3.782a.473.473,0,0,1,.473.473v.473Zm0,0"
+                                                            transform="translate(-24.996)" />
+                                                    </g>
+                                                    <g id="shopping-list" transform="translate(1035.018 239.091)">
+                                                        <g id="Group_11277" data-name="Group 11277"
+                                                            transform="translate(65.892)">
+                                                            <g id="Group_11276" data-name="Group 11276">
+                                                                <path id="Path_20058" data-name="Path 20058"
+                                                                    d="M163.469.631h-.685a.946.946,0,0,0-1.784,0h-.684A.315.315,0,0,0,160,.946V2.207a.315.315,0,0,0,.315.315h3.153a.315.315,0,0,0,.315-.315V.946A.315.315,0,0,0,163.469.631Z"
+                                                                    transform="translate(-160)" stroke="#fff"
+                                                                    stroke-width="0.2" />
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group_11279" data-name="Group 11279"
+                                                            transform="translate(64 1.261)">
+                                                            <g id="Group_11278" data-name="Group 11278">
+                                                                <path id="Path_20059" data-name="Path 20059"
+                                                                    d="M70.937,64h-.631v.946a.947.947,0,0,1-.946.946H66.207a.947.947,0,0,1-.946-.946V64h-.631a.632.632,0,0,0-.631.631V72.2a.624.624,0,0,0,.631.631h6.307a.624.624,0,0,0,.631-.631V64.631A.624.624,0,0,0,70.937,64Zm-3.245,5.584-1.261,1.261a.317.317,0,0,1-.447,0l-.631-.631a.315.315,0,0,1,.446-.446l.408.407,1.038-1.038a.316.316,0,0,1,.447.446Zm0-2.523-1.261,1.261a.317.317,0,0,1-.447,0l-.631-.631a.315.315,0,0,1,.446-.446l.408.407,1.038-1.038a.316.316,0,0,1,.447.446Zm2.3,3.245H68.73a.315.315,0,1,1,0-.631h1.261a.315.315,0,0,1,0,.631Zm0-2.523H68.73a.315.315,0,1,1,0-.631h1.261a.315.315,0,0,1,0,.631Z"
+                                                                    transform="translate(-64 -64)" stroke="#fff"
+                                                                    stroke-width="0.2" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+
+                                        </div>
+                                        <span>Consulting Doctors</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="notification.php">
+                                        <div class="dropmenu-list__icon">
+
+
+
+                                            <svg id="notification" xmlns="http://www.w3.org/2000/svg" width="13.431"
+                                                height="16.117" viewBox="0 0 13.431 16.117">
+                                                <g id="Group_11065" data-name="Group 11065">
+                                                    <g id="Group_11064" data-name="Group 11064"
+                                                        transform="translate(0)">
+                                                        <path id="Path_19682" data-name="Path 19682"
+                                                            d="M56.058,13.594l-1.153-1.922a5.709,5.709,0,0,1-.814-2.937V7.051a4.707,4.707,0,0,0-3.358-4.5V1.343a1.343,1.343,0,0,0-2.686,0V2.549a4.707,4.707,0,0,0-3.358,4.5V8.735a5.713,5.713,0,0,1-.813,2.937l-1.153,1.922a.336.336,0,0,0,.287.509H55.77a.336.336,0,0,0,.288-.508Z"
+                                                            transform="translate(-42.675)" />
+                                                    </g>
+                                                </g>
+                                                <g id="Group_11067" data-name="Group 11067"
+                                                    transform="translate(4.6 14.774)">
+                                                    <g id="Group_11066" data-name="Group 11066"
+                                                        transform="translate(0)">
+                                                        <path id="Path_19683" data-name="Path 19683"
+                                                            d="M188.815,469.333a2.336,2.336,0,0,0,4.229,0Z"
+                                                            transform="translate(-188.815 -469.333)" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+
+                                        </div>
+                                        <span>Payments</span>
+                                    </a>
+                                </li>
+
+                                 <li>
+                                    <a href="notification.php">
+                                        <div class="dropmenu-list__icon">
+
+
+
+                                            <svg id="notification" xmlns="http://www.w3.org/2000/svg" width="13.431"
+                                                height="16.117" viewBox="0 0 13.431 16.117">
+                                                <g id="Group_11065" data-name="Group 11065">
+                                                    <g id="Group_11064" data-name="Group 11064"
+                                                        transform="translate(0)">
+                                                        <path id="Path_19682" data-name="Path 19682"
+                                                            d="M56.058,13.594l-1.153-1.922a5.709,5.709,0,0,1-.814-2.937V7.051a4.707,4.707,0,0,0-3.358-4.5V1.343a1.343,1.343,0,0,0-2.686,0V2.549a4.707,4.707,0,0,0-3.358,4.5V8.735a5.713,5.713,0,0,1-.813,2.937l-1.153,1.922a.336.336,0,0,0,.287.509H55.77a.336.336,0,0,0,.288-.508Z"
+                                                            transform="translate(-42.675)" />
+                                                    </g>
+                                                </g>
+                                                <g id="Group_11067" data-name="Group 11067"
+                                                    transform="translate(4.6 14.774)">
+                                                    <g id="Group_11066" data-name="Group 11066"
+                                                        transform="translate(0)">
+                                                        <path id="Path_19683" data-name="Path 19683"
+                                                            d="M188.815,469.333a2.336,2.336,0,0,0,4.229,0Z"
+                                                            transform="translate(-188.815 -469.333)" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+
+                                        </div>
+                                        <span>Notification</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="dropmenu-list__icon">
+
+                                            <svg id="Group_10981" data-name="Group 10981"
+                                                xmlns="http://www.w3.org/2000/svg" width="13.601" height="13.601"
+                                                viewBox="0 0 13.601 13.601">
+                                                <g id="logout">
+                                                    <path id="Path_19663" data-name="Path 19663"
+                                                        d="M8.5,7.371a.567.567,0,0,0-.567.567V10.2a.567.567,0,0,1-.567.567h-1.7v-8.5A1.142,1.142,0,0,0,4.9,1.193l-.168-.056h2.64a.567.567,0,0,1,.567.567V3.4a.567.567,0,0,0,1.133,0V1.7A1.7,1.7,0,0,0,7.367,0H1.275a.445.445,0,0,0-.061.012C1.187.014,1.161,0,1.133,0A1.134,1.134,0,0,0,0,1.137v10.2a1.142,1.142,0,0,0,.772,1.077l3.41,1.137a1.173,1.173,0,0,0,.351.053,1.134,1.134,0,0,0,1.133-1.133V11.9h1.7a1.7,1.7,0,0,0,1.7-1.7V7.938A.567.567,0,0,0,8.5,7.371Zm0,0"
+                                                        transform="translate(0 -0.004)" />
+                                                    <path id="Path_19664" data-name="Path 19664"
+                                                        d="M283.4,109.1l-2.267-2.267a.566.566,0,0,0-.967.4v1.7H277.9a.567.567,0,1,0,0,1.133h2.267v1.7a.567.567,0,0,0,.967.4L283.4,109.9A.566.566,0,0,0,283.4,109.1Zm0,0"
+                                                        transform="translate(-269.965 -103.832)" />
+                                                </g>
+                                            </svg>
+
+                                        </div>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <!-- Dropmenu END -->
+                    </div>
+                    <!-- After Login END -->
+
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+ <!-- Sub Banner -->
+    <section class="sub-banner">
+        <div class="mask-image" style="background-image: url('./assets/images/sub-banner/doctor-banner.png');">
+            <div class="d-flex flex-grow-1 align-items-center h-100 w-100">
+                <div class="container text-center">
+                    <h4 class="sub-title ">Who Do You Want To Connect</h4>
+                    <div class="breadcrumb-content mx-auto text-center">
+                        <nav aria-label="breadcrumb" class="mb-0">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Who Do You Want To Connect</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Banner END -->
+
+        <!-- Quick Search -->
+    <section class="form-block-search sec-gap">
+        <div class="container">
+            <div class="section-header text-left">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h2 class="head-46 title color-black font-700 mb-3">View Your Best Doctores</h2>
+                    </div>
+                </div>
+            </div>
+
+            <form action="">
+                <div class="page-form-wrapper">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group mt-1">
+                                <select class="js-select form-control select-custom"
+                                    aria-placeholder="Select mental health support">
+                                    <option data-display="Select mental health support">Select your department 
+                                    </option>
+                                    <option value="1">Cardiology Department</option>
+                                    <option value="2">Dentistry Department</option>
+                                    <option value="3">Dermatology Department</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group mt-1">
+                                <select class="js-select form-control select-custom">
+                                    <option data-display="Select a Category">Select your available date</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="4">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="input-group mt-1">
+                                <div class="input-field w-100">
+                                    <span class="input-group-addon">
+                                        <img src="assets/images/icons/placeholder-location.svg" class="img-fluid"
+                                            alt="map">
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email"
+                                        placeholder="Search your location">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-search-block">
+                            Search
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Quick Search END -->
+
+
+    <!-- Professionals -->
+    <section class="staff-list-wrapper">
+        <div class="container">
+            <div class="row grid-gap">
+
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-01.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Donnie Anderson</h4>
+                                <p class="role">Sr. Cardiology</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-02.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Tashanu Canalse</h4>
+                                <p class="role">Dentistry</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (1K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-03.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Steves Musayin</h4>
+                                <p class="role">Sr. Dermatology</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-04.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr.Richard Sikora</h4>
+                                <p class="role">Dentistry</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-05.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Charles Harveys</h4>
+                                <p class="role">Sr. Dermatology</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (1K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-06.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Donnie Anderson</h4>
+                                <p class="role">Sr. Dermatology</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-07.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Richard Sikora</h4>
+                                <p class="role">Dentistry</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-08.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Tashanu Canalse</h4>
+                                <p class="role">Dentistry</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (1K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+                <!-- Col -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+
+                    <div class="staff-list">
+                        <a href="profession-inner.php">
+                            <div class="thumb--wrapper">
+                                <img src="assets/images/staff/s-09.png" class="img-fluid" alt="trainer">
+                            </div>
+                        </a>
+                        <div class="content--wrapper">
+                            <div class="prim-content">
+                                <h4>Dr. Donnie Anderson</h4>
+                                <p class="role">Dentistry</p>
+                            </div>
+                            <div class="sec-content">
+                                <div class="d-flex rating-content align-items-center justify-content-center">
+                                    <div>
+                                        <span class="icon-rating spr-badge-starrating">
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star fill-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                    <div class="count">
+                                        (3K)
+                                    </div>
+                                </div>
+                                <div class="social d-flex justify-content-center">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="/chat" target="_blank">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Col END -->
+
+            </div>
+
+            <div class="pagination-wrapper text-center mt-5 mb-4">
+                <nav class="mx-auto">
+                    <ul class="pagination">
+                        <li class="page-item active">
+                            <a class="page-link" href="#" tabindex="-1">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- Professionals END -->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Footer -->
+<div class="footer-logo">
+     <img src="assets/images/footer/footer-logo.png">
+</div> 
+  <footer class="footer-wrap">
+    <div class="footer-top-wrap-layout1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 mb-4">
+                    <div class="footer-widget">
+                      <div class="footer-menu-box">
+                       <div class="col-left">
+                                <h4 class="widget-title">Useful Links</h4>
+                                <ul class="footer-menu-list">
+                                    <li>
+                                        <a href="#">Situation Reports</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Advice For Public</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Prevention</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Donor & Partners</a>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 offset-lg-1 col-lg-4 b-4">
+                    <div class="footer-widget">
+
+                        <div class="footer-menu-box">
+                            <div class="col-left">
+                                <h4 class="widget-title">Popular Services</h4>
+                                <ul class="footer-menu-list">
+                                    <li>
+                                        <a href="#">Cardiology</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dentistry</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dermatology</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gastroenterology</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-right add-space-top">
+
+                                <ul class="footer-menu-list add-space-top">
+                                    <li>
+                                        <a href="./contact.html">Neurology</a>
+                                    </li>
+                                    <li>
+                                        <a href="./faq.html">Nutrition</a>
+                                    </li>
+                                    <li>
+                                        <a href="./terms.html">Oncology</a>
+                                    </li>
+                                    <li>
+                                        <a href="./privacy.html">Ophthalmology</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-lg-1  col-lg-3 mb-4">
+                    <div class="footer-widget">
+                       <h4 class="widget-title">Contact Us</h4>
+                        <div class="cont-details"> 
+                         <ul class="contact_info">
+                            <li>
+                                <div class="icon">
+                                    <img src="./assets/images/footer/location.svg" class="img-fluid">
+                                </div>
+                                <p>121 King St, Melbourne VIC 3000,
+                                   Australia</p>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <img src="./assets/images/footer/email.svg" class="img-fluid">
+                                </div>
+                                <p>info@cosmetiq.com</p>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <img src="./assets/images/footer/Phone.svg" class="img-fluid">
+                                </div>
+                                <a href="tel:+91754896589">888-123-4587</a>
+                            </li>
+                         </ul>
+                        </div> 
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+   <div class="copyright">
+    <p>Copyright © 2021 cosmetiq. All rights reserved | Powered By Zewia </p>
+   </div>
+</footer>
+<!-- Footer END --> 

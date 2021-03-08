@@ -1,0 +1,24 @@
+{
+  "name": "patient_phase",
+  "version": "1.0.0",
+  "description": "Hospital Chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js -e js,hbs"
+  },
+  "author": "yamuna",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "html": "^1.0.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}

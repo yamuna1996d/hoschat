@@ -1,0 +1,4 @@
+[0302/160149.683:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0302/160154.735:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0302/161727.075:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0302/215342.064:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.

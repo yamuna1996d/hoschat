@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.676" height="22" viewBox="0 0 12.676 22">
+  <g id="Group_11045" data-name="Group 11045" transform="translate(-496 -293)">
+    <g id="mobile-phone" transform="translate(496 293)">
+      <g id="Group_10859" data-name="Group 10859">
+        <g id="Group_10858" data-name="Group 10858" transform="translate(0)">
+          <path id="Path_19547" data-name="Path 19547" d="M119.564,0h-9.453A1.613,1.613,0,0,0,108.5,1.611V20.389A1.613,1.613,0,0,0,110.111,22h9.453a1.613,1.613,0,0,0,1.611-1.611V1.611A1.613,1.613,0,0,0,119.564,0Zm.967,17.488H111.4a.322.322,0,0,0,0,.645h9.131v2.256a.968.968,0,0,1-.967.967h-9.453a.968.968,0,0,1-.967-.967V18.133h.967a.322.322,0,0,0,0-.645h-.967V3.223h11.387Zm0-14.91H109.145V1.611a.968.968,0,0,1,.967-.967h9.453a.968.968,0,0,1,.967.967Z" transform="translate(-108.5)"/>
+        </g>
+      </g>
+      <g id="Group_10861" data-name="Group 10861" transform="translate(6.016 1.289)">
+        <g id="Group_10860" data-name="Group 10860" transform="translate(0)">
+          <path id="Path_19548" data-name="Path 19548" d="M250.111,30h-1.289a.322.322,0,0,0,0,.645h1.289a.322.322,0,0,0,0-.645Z" transform="translate(-248.5 -30)"/>
+        </g>
+      </g>
+      <g id="Group_10863" data-name="Group 10863" transform="translate(5.371 18.777)">
+        <g id="Group_10862" data-name="Group 10862" transform="translate(0)">
+          <path id="Path_19549" data-name="Path 19549" d="M234.467,437a.967.967,0,1,0,.967.967A.968.968,0,0,0,234.467,437Zm0,1.289a.322.322,0,1,1,.322-.322A.323.323,0,0,1,234.467,438.289Z" transform="translate(-233.5 -437)"/>
+        </g>
+      </g>
+      <g id="Group_10865" data-name="Group 10865" transform="translate(4.797 0.8)">
+        <g id="Group_10864" data-name="Group 10864" transform="translate(0 0)">
+          <ellipse id="Ellipse_740" data-name="Ellipse 740" cy="0.478" ry="0.478"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_155" data-name="Rectangle 155" transform="translate(496 296)" stroke="#000" stroke-width="1">
+      <rect width="12.5" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="11.5" height="15" fill="none"/>
+    </g>
+  </g>
+</svg>

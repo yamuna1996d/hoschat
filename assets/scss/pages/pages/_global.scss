@@ -1,0 +1,290 @@
+/**
+------------------------------------------------------------------------------
+Google Fonts
+------------------------------------------------------------------------------
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/**
+------------------------------------------------------------------------------
+Root
+------------------------------------------------------------------------------
+**/
+html,
+body {
+    width: 100%;
+    // overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/*Font Weight */
+.font-100 {
+    font-weight: 100 !important;
+}
+
+.font-200 {
+    font-weight: 200 !important;
+}
+
+.font-300 {
+    font-weight: 300 !important;
+}
+
+.font-400 {
+    font-weight: 400 !important;
+}
+
+.font-500 {
+    font-weight: 500 !important;
+}
+
+.font-600 {
+    font-weight: 600 !important;
+}
+
+.font-700 {
+    font-weight: 700 !important;
+}
+
+.font-800 {
+    font-weight: 800 !important;
+}
+
+.font-900 {
+    font-weight: 900 !important;
+}
+
+/*Font Size */
+.font-size-10 {
+    font-size: 10px !important;
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+
+/*Font Color */
+.color-black {
+    color: #000 !important;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+.t-color-primary {
+    color: #1BA44B !important;
+}
+
+/* Bg Color */
+.bg-color-primary {
+    background-color: #1BA44B !important;
+}
+
+.bg-color-primary-d {
+    background-color: #006323 !important;
+}
+
+.bg-grey-light {
+    background-color: rgba(229, 229, 229, 0.2) !important;
+
+}
+
+/* Header */
+.head-46 {
+    font-size: 1.875rem;
+
+    @media(min-width:1200px) {
+        font-size: 2.875rem;
+    }
+}
+
+.head-45 {
+    font-size: 1.875rem;
+
+    @media(min-width:1200px) {
+        font-size: 2.813rem;
+    }
+}
+
+.head-44 {
+    font-size: 1.875rem;
+
+    @media(min-width:1200px) {
+        font-size: 2.75rem;
+    }
+}
+
+.text-25 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #131313;
+
+    @media(min-width:992px) {
+        font-size: 25px;
+    }
+}
+.text-22 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #131313;
+
+    @media(min-width:992px) {
+        font-size: 22px;
+    }
+}
+/* Image */
+.img-full {
+    width: 100% !important;
+}
+
+.img-br-up {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg-flex-elm {
+    background-color: #fff;
+    padding: 0rem 0rem;
+
+    @media(min-width:992px) {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    &.right {
+        right: 0;
+        left: auto;
+    }
+
+    .bg-image {
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+.br-tl-150 {
+    border-top-left-radius: 150px !important;
+}
+
+.br-tr-150 {
+    border-top-right-radius: 150px !important;
+}
+
+
+
+.img-center {
+    display: block;
+    margin: 0px auto;
+}
+
+/* Z Index */
+.z-index-10 {
+    z-index: 10 !important;
+}
+
+/**
+------------------------------------------------------------------------------
+Date Picker
+------------------------------------------------------------------------------
+**/
+.datepicker {
+    background-color: #fff !important;
+    padding: 0rem;
+
+    &.dropdown-menu {
+        border-radius: 0rem !important;
+        border: none !important;
+    }
+
+    table {
+
+        td,
+        th {
+            border: 1px solid #eee !important;
+            font-size: 14px !important;
+            padding: 0.4rem 0.4rem !important;
+        }
+
+        td {
+            &.active {
+                background-image: none !important;
+                background-color: #1BA44B !important;
+                border-radius: 0rem !important;
+            }
+        }
+    }
+}
+
+/**
+------------------------------------------------------------------------------
+Select 2
+------------------------------------------------------------------------------
+**/
+.select2 {
+    width: 100% !important;
+}
+
+.drop-arrow {
+    opacity: 1 !important;
+    top: 25px !important;
+}
+
+/**
+------------------------------------------------------------------------------
+Padding Gap
+------------------------------------------------------------------------------
+**/
+.gap-b-4rem {
+    padding-bottom: 4rem;
+}
+
+/**
+------------------------------------------------------------------------------
+Editor
+------------------------------------------------------------------------------
+**/
+rte-content {
+    border-bottom: none;
+}
+
+rte-bottom {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.richtexteditor.rte-modern {
+    border: 1px solid #C8C8C8 !important;
+    border-radius: 10px !important;
+}
+
+.richtexteditor.rte-modern rte-toolbar {
+    background-color: transparent !important;
+}

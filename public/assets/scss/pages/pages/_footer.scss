@@ -1,0 +1,198 @@
+/**
+------------------------------------------------------------------------------
+Footer
+------------------------------------------------------------------------------
+**/
+.footer-wrap {
+    // background-color: blueviolet;
+    overflow: hidden;
+    padding-top: 4.3rem;
+    padding-bottom: 1.6rem;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(241, 255, 246, 1) 20%, rgba(241, 255, 246, 1) 100%);
+
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        // width: calc(100% - 414px);
+        width: 100%;
+        right: 0;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(0deg, rgba(27,164,75,1) 0%, rgba(14,82,38,1) 100%);
+        // background: linear-gradient(180deg, rgba(27, 164, 75, 1) 0%, rgba(14, 82, 38, 0.9808298319327731) 100%);
+        border-radius: 0rem 0rem;
+        border-top-left-radius: 100px;
+
+        @media(min-width:992px) {
+            width: 70%;
+            border-top-left-radius: 241px;
+        }
+
+        @media(min-width:1200px) {
+            width: 66%;
+        }
+    }
+
+    .footer-widget {
+
+        .footer-menu-box {
+            display: flex;
+            justify-content: flex-start;
+
+            @media(min-width:768px) {
+                justify-content: space-between;
+            }
+
+            .footer-menu-list {
+                list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                margin-top: 2.2rem;
+
+                li {
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 1.4rem;
+
+                    a {
+                        color: #E6E6E6;
+                        transition: all 0.3s ease-out;
+
+                        &:hover {
+                            transition: all 0.3s ease-out;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .widget-title {
+            font-size: 20px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            color: #E6E6E6;
+        }
+
+        .contact_info {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            font-family: 'Nunito', sans-serif;
+
+            li {
+                margin-bottom: 15px;
+                list-style: none;
+
+                .icon {
+                    display: inline-block;
+                    margin-right: 10px;
+                    margin-top: 0px;
+                    font-size: 18px;
+                    vertical-align: top;
+                }
+
+                p {
+                    overflow: hidden;
+                    font-size: 16px;
+                    color: #E6E6E6;
+                    line-height: 26px;
+                    margin: 0;
+                    vertical-align: middle;
+                    max-width: 78%;
+                    display: inline-block;
+                }
+
+                a {
+                    color: #E6E6E6;
+                }
+            }
+        }
+
+    }
+
+    .col-left {
+        padding-right: 2rem;
+
+        @media(min-width:1200px) {
+            padding-left: 4.7rem;
+            padding-right: 0rem;
+        }
+    }
+
+    .col-right {
+        @media(min-width:1200px) {
+            padding-right: 3rem;
+        }
+    }
+
+    .footer-logo {
+        max-width: 163px;
+        margin-bottom: 2rem;
+    }
+
+    .copyright {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+
+        @media(min-width:992px) {
+            color: #546B5C;
+        }
+
+        a {
+            color: #1BA44B;
+        }
+    }
+
+    .footer-social {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+
+        li {
+            display: inline-block;
+            margin-right: 15px;
+            font-size: 20px;
+            color: #fff;
+
+            a {
+                display: block;
+
+                color: #fff;
+            }
+        }
+    }
+}
+
+.logo-pim {
+    display: none;
+
+    @media(min-width:992px) {
+        display: block;
+    }
+}
+
+.logo-white {
+    display: block;
+
+    @media(min-width:992px) {
+        display: none;
+    }
+}
+
+.ftr-shape-circle {
+    width: 403px;
+    height: 403px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
+    right: -15.6rem;
+    bottom: -12.2rem;
+    position: absolute;
+}

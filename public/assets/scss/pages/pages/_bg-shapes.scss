@@ -1,0 +1,29 @@
+.shape-icons {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+    &.right {
+        right: 0;
+    }
+
+    &.bottom {
+        bottom: 0;
+    }
+
+    &.top {
+        top: 0;
+    }
+
+    &.left {
+        left: 0;
+    }
+}
+
+.shape-grid-r {
+    position: absolute;
+    bottom: -2.8rem;
+    right: -3.5rem;
+    z-index: -1;
+}

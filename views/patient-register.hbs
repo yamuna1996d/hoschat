@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cosmique</title>
+    <!-- Plugins -->
+    <link rel="stylesheet" href="./assets/plugins/plugin-bundle.css">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="./assets/images/iconset/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/icons/themify-icons.css">
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="./assets/css/frame-style.css">
+
+
+</head>
+
+<body>
+
+    <!---navbar--->
+    <nav class="navbar  navbar-expand-lg nav-mob-wrapper navbar-light patient-icon-main">
+        <!-- Mobile Navber -->
+        <div class="nav-mob">
+            <button class="btn nav-mob__bars" type="button" data-toggle="collapse" data-target="#navbarMainMenu"
+                aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
+            <a class="nav-mob__logo" href="
+    ">
+                <img src="./assets/images/logo/Ualright logo-prim.svg" class="img-fluid"></a>
+            <div class="nav-mob__right">
+                <a href="profile.php" class="btn nav-mob__login">
+                    <div class="user-avatar">
+                        <img src="./assets/images/author/av-01.png" class="img-fluid" alt="icon">
+                    </div>
+                    Login
+                </a>
+            </div>
+        </div>
+        <!-- Mobile Navber END -->
+
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/logo/logo.png" class="logo-pc img-fluid">
+            </a>
+
+
+            <div class="collapse navbar-collapse" id="navbarMainMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./news.html">Doctor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link inner-color" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="form-inline d-none d-lg-flex patient-icon ">
+                    <a href="#" data-toggle="modal" data-target="#loginFormModal"
+                        class="qk-links login mr-4 inner-color">
+                        <span class="btn-inline-icon svg-icon">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.355" height="13.355"
+                                viewBox="0 0 13.355 13.355" class="svg-icon">
+                                <g id="Group_32" data-name="Group 32" transform="translate(-30.191 -29.191)">
+                                    <g id="Group_33" data-name="Group 33" transform="translate(30.691 29.691)">
+                                        <path id="Path_375" style="color:#000 !important;" data-name="Path 375"
+                                            d="M52.5,32a6.179,6.179,0,0,0-5.771,3.971h.955a5.287,5.287,0,1,1,0,4.413h-.955A6.178,6.178,0,1,0,52.5,32Z"
+                                            transform="translate(-46.319 -32)" fill="#000000" stroke="#000000"
+                                            stroke-width="1" />
+                                        <path id="Path_376" style="color:#000 !important;" data-name="Path 376"
+                                            d="M36.822,169.858l.624.624,2.5-2.5-2.5-2.5-.624.624,1.431,1.431H32v.883h6.253Z"
+                                            transform="translate(-32 -161.809)" fill="#000000" stroke="#000000"
+                                            stroke-width="1" />
+                                    </g>
+                                </g>
+                            </svg>
+
+                        </span>
+                        Log in
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- Sub Banner -->
+    <section class="sub-banner">
+        <div class="mask-image" style="background-image: url('./assets/images/sub-banner/sub-banner.png');">
+            <div class="d-flex flex-grow-1 align-items-center h-100 w-100">
+                <div class="container text-center">
+                    <h4 class="sub-title ">Create Your Account</h4>
+                    <div class="breadcrumb-content mx-auto text-center">
+                        <nav aria-label="breadcrumb" class="mb-0">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Registration</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Banner END -->
+
+
+
+
+    <!-- Section Main -->
+    <section class="position-relative wrap-main">
+        <div class="container">
+            <div class="register-tab-header">
+                <div class="d-block text-center qk-login">
+                    Already a member
+                    <a href="">
+                        Login
+                    </a>
+                </div>
+            </div>
+
+            <div class="register-tab-content">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-patient" role="tabpanel"
+                        aria-labelledby="pills-patient-tab">
+
+                        <!-- Register Form -->
+                        <div class="register-form-content">
+                            <div class="text-center">
+                                <h3 class="font-700">Patient Register</h3>
+                            </div>
+
+                            <!-- Form Field -->
+                            <div class="form-content">
+                                <div class="profile-image mx-auto">
+                                    <div class="image-container">
+                                        <img src="assets/images/icons/profile-dummy.svg"
+                                            class="img-fluid js-thumbPreview" alt="avatar">
+                                    </div>
+                                    <button class="btn image-uploader">
+                                        <input type='file' onchange="readURL(this);" name="profilepic">
+                                        <img src="assets/images/icons/camera.svg" class="img-fluid upload-icon"
+                                            alt="icon">
+                                    </button>
+                                </div>
+
+                                <div class="form-register">
+
+
+                                    <form action="/register" method="POST">
+
+                                        <div class="controls">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/forms/user.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                            Full Name
+                                                        </label>
+                                                        <input type="text" class="form-control" name="fullName" value="" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/forms/mail.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                            Email Address
+                                                        </label>
+                                                        <input type="email" class="form-control" name="email" value="" required >
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/forms/phone.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                            Mobile number
+                                                        </label>
+                                                        <input type="text" class="form-control" name="mobile" value="" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/forms/map.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                            Location
+                                                            <span class="opt">
+                                                                (Optional)
+                                                            </span>
+                                                        </label>
+                                                        <input type="text" class="form-control" name="location" value="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/lock.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                            Password
+                                                        </label>
+                                                        <input type="password" class="form-control" name="password" value="" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>
+                                                            <div class="label-icon">
+                                                                <img src="assets/images/icons/lock.svg"
+                                                                    class="img-fluid" alt="user">
+                                                            </div>
+                                                           Confirm Password
+                                                        </label>
+                                                        <input type="password" class="form-control" name="conpassword" value="" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-register-submit mx-auto">
+                                        Submit
+                                    </button>
+                                </div>
+
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Form Field END -->
+                    </div>
+                    <!-- Register Form END -->
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- Section Main END -->
+
+
+
+
+
+    <!-- Footer -->
+    <div class="footer-logo">
+        <img src="assets/images/footer/footer-logo.png">
+    </div>
+    <footer class="footer-wrap">
+        <div class="footer-top-wrap-layout1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 mb-4">
+                        <div class="footer-widget">
+                            <div class="footer-menu-box">
+                                <div class="col-left">
+                                    <h4 class="widget-title">Useful Links</h4>
+                                    <ul class="footer-menu-list">
+                                        <li>
+                                            <a href="#">Situation Reports</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Advice For Public</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Prevention</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Donor & Partners</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-lg-1 col-lg-4 b-4">
+                        <div class="footer-widget">
+
+                            <div class="footer-menu-box">
+                                <div class="col-left">
+                                    <h4 class="widget-title">Popular Services</h4>
+                                    <ul class="footer-menu-list">
+                                        <li>
+                                            <a href="#">Cardiology</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Dentistry</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Dermatology</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Gastroenterology</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-right add-space-top">
+
+                                    <ul class="footer-menu-list add-space-top">
+                                        <li>
+                                            <a href="./contact.html">Neurology</a>
+                                        </li>
+                                        <li>
+                                            <a href="./faq.html">Nutrition</a>
+                                        </li>
+                                        <li>
+                                            <a href="./terms.html">Oncology</a>
+                                        </li>
+                                        <li>
+                                            <a href="./privacy.html">Ophthalmology</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-lg-1  col-lg-3 mb-4">
+                        <div class="footer-widget">
+                            <h4 class="widget-title">Contact Us</h4>
+                            <div class="cont-details">
+                                <ul class="contact_info">
+                                    <li>
+                                        <div class="icon">
+                                            <img src="./assets/images/footer/location.svg" class="img-fluid">
+                                        </div>
+                                        <p>121 King St, Melbourne VIC 3000,
+                                            Australia</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="./assets/images/footer/email.svg" class="img-fluid">
+                                        </div>
+                                        <p>info@cosmetiq.com</p>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="./assets/images/footer/Phone.svg" class="img-fluid">
+                                        </div>
+                                        <a href="tel:+91754896589">888-123-4587</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2021 cosmetiq. All rights reserved | Powered By Zewia </p>
+        </div>
+    </footer>
+    <!-- Footer END -->

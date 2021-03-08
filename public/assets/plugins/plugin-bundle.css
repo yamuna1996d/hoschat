@@ -1,0 +1,10 @@
+/** Plugins **/
+
+@import "./animate/animate.css";
+@import "./nice-select/nice-select.css";
+@import "./fancybox/jquery.fancybox.min.css";
+@import "./datepicker/css/bootstrap-datepicker.min.css";
+@import "./select2/select2.min.css";
+@import "./swiper/swiper-bundle.min.css";
+@import "./scrollbar/jquery.mCustomScrollbar.css";
+@import "./richtexteditor/rte_theme_default.css";
