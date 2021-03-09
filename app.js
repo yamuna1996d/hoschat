@@ -1,10 +1,7 @@
 const express = require('express');
 const app = express();
-const port = 3000;
-// const middleware = require('./middleware');
 const Register=require("./schemas/UserSchema");
 const path = require('path');
-// const bodyParser = require("body-parser");
 const {json} = require("express");
 const mongoose = require("mongoose");
 mongoose.connect("mongodb+srv://dbuser123:dbuser123@cluster0.zcpbv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
